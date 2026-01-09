@@ -1,11 +1,8 @@
-A) ROTEIRO COMPLETO DO VÍDEO (7–10 MIN)
+ROTEIRO COMPLETO DO VÍDEO
+
 Tema: Snowflake Breach 2024 – Credential Harvesting, MFA Bypass and Massive Data Exfiltration
 
-🎙️ SCRIPT COMPLETO (EM INGLÊS) PARA GRAVAÇÃO
-(fluido, natural, dentro dos requisitos do curso)
-
 🔹 Slide 1 — Introduction
-Spoken Script (English):
 Hello, my name is Fernando Corrêa da Silva Júnior, i'm speaking from Brazil.
 My GitHub username is fcorrea002, and my edX username is fcorrea007.
 Today is January 9, 2026.
@@ -121,4 +118,4 @@ The Snowflake breach makes one thing clear:
 Strong authentication is more important than ever.
 The cloud was not hacked — humans were.
 By strengthening identity controls and reducing exposure to credential theft, organizations can prevent incidents like this from occurring again.
-Thank you for watching.
+
