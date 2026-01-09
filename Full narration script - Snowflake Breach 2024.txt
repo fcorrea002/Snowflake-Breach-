@@ -1,0 +1,124 @@
+A) ROTEIRO COMPLETO DO VÍDEO (7–10 MIN)
+Tema: Snowflake Breach 2024 – Credential Harvesting, MFA Bypass and Massive Data Exfiltration
+
+🎙️ SCRIPT COMPLETO (EM INGLÊS) PARA GRAVAÇÃO
+(fluido, natural, dentro dos requisitos do curso)
+
+🔹 Slide 1 — Introduction
+Spoken Script (English):
+Hello, my name is Fernando Corrêa da Silva Júnior, i'm speaking from Brazil.
+My GitHub username is fcorrea002, and my edX username is fcorrea007.
+Today is January 9, 2026.
+In this presentation, I will discuss a recent cybersecurity incident: the Snowflake Breach, which occurred between May and June 2024.
+This incident did not have a formal CVE number, because it was not caused by a Snowflake vulnerability, but by compromised customer credentials stolen through infostealer malware.
+I selected this topic because it directly relates to themes we studied in this course, including privacy, authentication, credential management, cloud security, and the consequences of failing to apply MFA.
+
+🔹 Slide 2 — What is Snowflake?
+Snowflake is one of the largest cloud data warehouse platforms in the world.
+It stores sensitive data from global companies such as banks, fintechs, major retailers, cybersecurity companies, and even government agencies.
+Because Snowflake centralizes massive datasets, it is a high-value target for cybercriminals.
+
+🔹 Slide 3 — What Happened? (Incident Overview)
+Between late May and early June 2024, multiple Snowflake customer environments were accessed illegally.
+Attackers used valid usernames and passwords previously stolen by infostealer malware installed on employee laptops.
+No Snowflake systems were breached — instead, attackers authenticated successfully using stolen customer credentials.
+Since many victims did not enable MFA, the attackers logged in normally and exported large volumes of data.
+
+🔹 Slide 4 — Attack Timeline
+March–May 2024:
+Infostealer malware infections captured employee browser-stored credentials.
+Late May 2024:
+Attackers tested credentials against Snowflake logins.
+May 30 – June 5, 2024:
+Multiple successful logins occurred.
+Large data sets were exfiltrated through Snowflake’s native export functionalities.
+June 2024:
+Ransomware and extortion groups began offering stolen Snowflake datasets for sale on dark web forums.
+
+🔹 Slide 5 — How Credentials Were Stolen
+Infostealer malware such as RedLine, Lumma, and Vidar targeted employee devices.
+These tools extract:
+	• Saved passwords
+	• Session cookies
+	• Autofill data
+	• Browser-stored tokens
+Attackers purchased these logs on marketplaces such as Russian Market and used them to gain access to Snowflake accounts.
+
+🔹 Slide 6 — Why MFA Failed (or Didn’t Exist)
+The majority of victims had no MFA enforced in their Snowflake accounts.
+Snowflake only recently began requiring MFA, so many organizations were still using password-only authentication.
+Some accounts also used legacy authentication methods with weak controls and no geolocation or IP restrictions.
+
+🔹 Slide 7 — Attackers’ Objectives
+The attackers had three clear goals:
+	1. Full data exfiltration: They exported terabytes of customer data.
+	2. Extortion: Victims were told to pay to prevent public leaks.
+	3. Sale of stolen datasets on darknet forums.
+Examples of stolen data include:
+	• PII
+	• Financial records
+	• Transactional logs
+	• Database tables
+	• Internal business intelligence datasets
+
+🔹 Slide 8 — Impact on Organizations
+The breach affected multiple industries:
+	• Financial institutions
+	• Retail corporations
+	• Security companies
+	• SaaS providers
+	• Cryptocurrency exchanges
+Impacts included:
+	• Reputational damage
+	• Mandatory customer notifications
+	• Regulatory investigations
+	• Potential class-action lawsuits
+	• Loss of competitive data
+	• Operational disruption
+
+🔹 Slide 9 — Lessons Learned (Technical Analysis)
+This incident reinforces several key points:
+	• MFA must always be enforced for cloud platforms.
+	• Credential theft remains one of the easiest attack vectors.
+	• Browser-stored passwords are extremely high risk.
+	• Detection mechanisms should analyze login anomalies:
+		○ unusual IPs
+		○ impossible travel
+		○ massive data exports
+Most importantly:
+A cloud vendor can be secure, but customers must also secure their accounts.
+
+🔹 Slide 10 — How Snowflake Responded
+Snowflake initiated:
+	• Forced MFA rollout
+	• Temporary session invalidations
+	• Credential resets
+	• Enhanced anomaly detection
+	• Customer notifications
+	• Updated security documentation
+They also collaborated with:
+	• Mandiant
+	• CrowdStrike
+	• Law enforcement agencies
+
+🔹 Slide 11 — Recommendations
+To avoid similar incidents:
+For Organizations
+	• Enforce MFA for all cloud users
+	• Use SSO + Identity Providers
+	• Block browser-stored credentials
+	• Implement EDR to detect infostealers
+	• Apply network restrictions (IP allowlists)
+	• Monitor high-volume data exports
+	• Use password managers instead of browser storage
+For Individuals
+	• Never store corporate passwords in browsers
+	• Use hardware MFA keys
+	• Avoid accessing cloud systems on personal devices
+
+🔹 Slide 12 — Final Thoughts
+The Snowflake breach makes one thing clear:
+Strong authentication is more important than ever.
+The cloud was not hacked — humans were.
+By strengthening identity controls and reducing exposure to credential theft, organizations can prevent incidents like this from occurring again.
+Thank you for watching.
