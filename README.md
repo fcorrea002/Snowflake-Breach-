@@ -4,7 +4,7 @@
 **Author:** Fernando Corrêa da Silva Júnior  
 **GitHub:** fcorrea002  
 **edX:** fcorrea007  
-**Video Recording Date:** [Insert Your Recording Date]  
+**Video Recording Date:** [January 9, 2026]  
 **Incident Date:** May–June 2024  
 **CVE:** Not applicable (credential-based breach)
 
@@ -80,10 +80,10 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 
 ## 📌 Files Included in This Repository
 
-- `video.mp4` — Final 7–10 minute presentation  
-- `slides.pptx` — Slide deck used in the video  
-- `script.txt` — Full narration script  
-- `report.pdf` — 12-page written incident analysis  
+- `(https://youtu.be/YdYP3nlHVz4)` — Final 7–10 minute presentation  
+- `slides_CS50 - FinalProject - Snowflake Breach 2024_Presentation.pptx` — Slide deck used in the video  
+- `Full narration script - Snowflake Breach 2024.txt` — Full narration script  
+- `CS50 Cybersecurity Final Project – Snowflake Breach (May-Jun 2024).pdf` — 12-page written incident analysis  
 - `README.md` — This file  
 
 ---
@@ -91,7 +91,7 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 ## 📌 How to View the Video
 
 The video has been uploaded to YouTube as **Unlisted**, as required.  
-Link: **[Insert Your Unlisted YouTube Link]**
+Link: **[https://youtu.be/YdYP3nlHVz4]**
 
 ---
 
