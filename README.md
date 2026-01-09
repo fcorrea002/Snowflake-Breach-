@@ -80,11 +80,11 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 
 ## 📌 Files Included in This Repository
 
-- `(https://youtu.be/YdYP3nlHVz4)` — Final 7–10 minute presentation  
-- `slides_CS50 - FinalProject - Snowflake Breach 2024_Presentation.pptx` — Slide deck used in the video  
-- `Full narration script - Snowflake Breach 2024.txt` — Full narration script  
-- `CS50 Cybersecurity Final Project – Snowflake Breach (May-Jun 2024).pdf` — 12-page written incident analysis  
-- `README.md` — This file  
+- /video/video_link.txt - https://youtu.be/YdYP3nlHVz4
+- /slides/ - slides_CS50 - FinalProject - Snowflake Breach 2024_Presentation.pptx
+- /script/ - Full narration script - Snowflake Breach 2024.txt
+- /report/ - `CS50 Cybersecurity Final Project – Snowflake Breach (May-Jun 2024).pdf
+- /README.md/ — This file  
 
 ---
 
