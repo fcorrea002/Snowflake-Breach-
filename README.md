@@ -80,12 +80,6 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 
 ## 📌 Files Included in This Repository
 
-- /video/video_link.txt - 
-- /slides/ - 
-- /script/ - 
-- /report/ - `
-- /README.md/ — This file
-
 - /
 ├── README.md - This file
 ├── slides/
@@ -95,7 +89,7 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 ├── script/
 │   └── Full narration script - Snowflake Breach 2024.txt
 └── video/
-    └── video_link.txt
+    └── video_link - Snowflake Breach 2024.txt
 
 
 ---
