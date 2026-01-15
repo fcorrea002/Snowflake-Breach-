@@ -78,19 +78,18 @@ Stolen customer data was later advertised for sale on dark web marketplaces.
 
 ---
 
-## 📌 Files Included in This Repository
+### 📌 Files Included in This Repository
 
 - /
 ├── README.md - This file    
 ├── slides/    
-│   └── slides_CS50 - FinalProject - Snowflake Breach 2024_Presentation.pptx    
+│   └── slides_CS50 - (FinalProject - Snowflake Breach 2024_Presentation.pptx)    
 ├── report/    
-│   └── CS50 Cybersecurity Final Project – Snowflake Breach (May-Jun 2024).pdf    
+│   └── CS50 Cybersecurity (Final Project – Snowflake Breach (May-Jun 2024).pdf)    
 ├── script/    
-│   └── Full narration script - Snowflake Breach 2024.txt    
+│   └── Full narration (script - Snowflake Breach 2024.txt)    
 └── video/    
-    └── video_link - Snowflake Breach 2024.txt    
-
+    └── video_link - Snowflake Breach 2024.txt
 
 ---
 
