@@ -3,7 +3,7 @@ Snowflake Breach 2024 – Credential Compromise in Cloud Environments
 Author: Fernando Corrêa da Silva Júnior
 GitHub: fcorrea002
 edX: fcorrea007
-Video Recording Date: [Insert Your Recording Date]
+Video Recording Date: [January 9, 2026]
 Incident Date: May–June 2024
 CVE: Not applicable (credential-based breach)
 
@@ -56,14 +56,18 @@ Enable MFA everywhere
 Keep personal devices separate from corporate access
 Use hardware authentication tokens
 📌 Files Included in This Repository
-video.mp4 — Final 7–10 minute presentation
-slides.pptx — Slide deck used in the video
-script.txt — Full narration script
-report.pdf — 12-page written incident analysis
-README.md — This file
+	• / ├── README.md - This file
+├── slides/
+│ └── slides_CS50 - (FinalProject - Snowflake Breach 2024_Presentation.pptx)
+├── report/
+│ └── CS50 Cybersecurity (Final Project – Snowflake Breach (May-Jun 2024).pdf)
+├── script/
+│ └── Full narration (script - Snowflake Breach 2024.txt)
+└── video/
+└── video_link - Snowflake Breach 2024.txt
 📌 How to View the Video
 The video has been uploaded to YouTube as Unlisted, as required.
-Link: [Insert Your Unlisted YouTube Link]
+Link: [https://youtu.be/YdYP3nlHVz4]
 
 📌 Concluding Remarks
 The Snowflake 2024 breach is a powerful example of how authentication weaknesses, not software vulnerabilities, remain one of the most exploitable attack surfaces in cloud environments.
@@ -73,4 +77,5 @@ This project demonstrates how a preventable identity compromise escalated into a
 📌 License
 This project is submitted as part of CS50's Introduction to Cybersecurity (HarvardX).
 YouTube video is unlisted per course policy.
+
 Materials may not be redistributed without permission.
